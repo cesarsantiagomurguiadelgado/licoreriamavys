@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+}
+nav {
+    width: 100%;
+    background-color: white;
+    display: inline-flex;
+    font-size: 30px;
+    font-family:monospace;
+    height: 75px;
+}
+
+nav div{
+    width: 20%;
+    display: inline-flex;
+    position: relative;
+    top: 15px;
+}
+
+nav div p{
+    height: 25px;
+    width: 55%;
+    position: relative;
+    font-size: 12px;
+    text-transform: uppercase;
+    left: 18%;
+    font-weight: 1000;
+}
+
+nav div span {
+    left: 16%;
+    position: relative; 
+}
+
+nav div span i{
+    height: 10px;
+    width: 10px;
+    position: relative; 
+}
+
+#separadornav {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: cursive;
+    top: 15px;
+}
+
+header {
+    width: 100%;
+    background-color: #221616;
+    position: relative;
+    bottom: 22px;
+    width: 100%;
+    height: 150px;
+    display: inline-flex;
+}
+
+header div{
+    text-align: center;
+    color: white;
+    position: relative;
+    width: 50%;
+    left: 10%;
+}
+
+header div img{
+    width: 150px;
+    height: 150px;
+}
+
+header h1{
+    right: 10%;
+    text-align: left;
+    color: white;
+    top: 50px;
+    position: relative;
+    width: 50%;
+}
